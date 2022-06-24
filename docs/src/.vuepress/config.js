@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Nils Knowledge Base',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -35,7 +35,7 @@ module.exports = {
     nav: [
       {
         text: 'Guide',
-        link: '/guide/',
+        link: '/knowledge/',
       },
       {
         text: 'Config',
@@ -47,13 +47,14 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/knowledge/': [
         {
-          title: 'Guide',
+          title: 'Knowledge',
           collapsable: false,
           children: [
             '',
             'using-vue',
+            'vue-netlify',
           ]
         }
       ],
