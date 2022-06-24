@@ -1,0 +1,19 @@
+{
+  "name": "Nils Knowledge Base",
+  "version": "0.0.1",
+  "description": "Tutorials and more",
+  "main": "index.js",
+  "authors": {
+    "name": "Nils",
+    "email": "weichlermedia@gmail.com"
+  },
+  "repository": "https://github.com/nilsweichler/knowledge-base/Nils Knowledge Base",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
